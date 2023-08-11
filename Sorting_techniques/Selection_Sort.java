@@ -3,9 +3,9 @@ package Sorting_techniques;
 public class Selection_Sort {
 
 	static void selection_sort(int arr[], int n) {
-        for (int i = 0; i < n - 1; i++) {
+        for (int i=0; i < n-1; i++) {
             int mini = i;
-            for (int j = i + 1; j < n; j++) {
+            for (int j = i+1; j < n; j++) {
                 if (arr[j] < arr[mini]) {
                     mini = j;
                 }
