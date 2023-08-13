@@ -1,7 +1,7 @@
 package BS_ONE_D_ARRAYS;
 
 public class Lower_Bond {
-
+//upper bound is same
 	public static int lowerBound(int[] arr,int n,int x) {
 		int low=0;
 		int high=n-1;
@@ -10,7 +10,7 @@ public class Lower_Bond {
 		while(low<=high) {
 			int mid = (low + high) / 2;
             // maybe an answer
-            if (arr[mid] >= x) {
+            if (arr[mid] >= x) {//only = sign will be removed
                 ans = mid;
                 //look for smaller index on the left
                 high = mid - 1;
