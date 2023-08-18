@@ -37,7 +37,6 @@ public class reverse_words2 {
 				ans = temp;
 			}
 		}
-
 		return ans;
 	}
 	public static void main(String[] args) {
