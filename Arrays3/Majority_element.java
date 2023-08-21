@@ -35,3 +35,23 @@ public class Majority_element {
     }
 
 }
+//static int majorityElement(int a[], int size)
+//{
+//    // your code here
+//      HashMap<Integer,Integer> hm=new HashMap<>();
+//  for(int i=0;i<a.length;i++)
+//  {
+//      if(hm.containsKey(a[i]))
+//      {hm.put(a[i],hm.get(a[i])+1);}
+//      else
+//      hm.put(a[i],1);
+//  }
+//  for(int x:hm.keySet())
+//  {
+//      if(hm.get(x)>(a.length/2))
+//      return x;
+//      
+//  }
+//  return -1;
+//}
+
