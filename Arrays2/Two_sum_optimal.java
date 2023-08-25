@@ -21,9 +21,5 @@ public class Two_sum_optimal {
 	        int target = 14;
 	        String ans = twoSum(n, arr, target);
 	        System.out.println("This is the answer for variant 1: " + ans);
-
 	    }
-
-	
-
 }

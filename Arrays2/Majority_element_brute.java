@@ -22,7 +22,7 @@ public class Majority_element_brute {
         return -1;
     }
 	public static void main(String args[]) {
-        int[] arr = {2, 2, 1, 1, 1, 2, 2};
+        int[] arr = {1,1,2};
         int ans = majorityElement(arr);
         System.out.println("The majority element is: " + ans);
 
