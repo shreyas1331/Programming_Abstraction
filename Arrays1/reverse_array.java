@@ -11,7 +11,7 @@ public class reverse_array {
 			arr[i]=sc.nextInt();
 		}
 		
-		reverse(arr,0,4);
+		reverse(arr,0,n-1);
 		for(int i=0;i<n;i++) {
 			System.out.print(arr[i]+" ");
 		}

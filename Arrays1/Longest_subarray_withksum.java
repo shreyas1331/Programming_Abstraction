@@ -13,8 +13,9 @@ public class Longest_subarray_withksum {
                 long s = 0;
                 for (int K = i; K <= j; K++) {
                     s += a[K];
+                    
                 }
-
+     
                 if (s == k)
                     len = Math.max(len, j - i + 1);
             }
@@ -23,8 +24,8 @@ public class Longest_subarray_withksum {
     }
 
     public static void main(String[] args) {
-        int[] a = {2, 3, 5, 1, 9};
-        long k = 10;
+        int[] a = {3 ,4 ,-7 ,3 ,1 ,3, 1 ,-4 ,-2 ,-2};
+        long k = 0;
         int len = getLongestSubarray(a, k);
         System.out.println("The length of the longest subarray is: " + len);
     }
