@@ -1,7 +1,7 @@
 package Sorting_techniques;
 
 public class Selection_Sort {
-
+//4(n-1) iterations.
 	static void selection_sort(int arr[], int n) {
         for (int i=0; i < n-1; i++) {
             int mini = i;
