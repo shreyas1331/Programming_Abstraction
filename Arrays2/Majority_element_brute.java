@@ -2,7 +2,6 @@ package Arrays2;
 
 public class Majority_element_brute {
 	public static int majorityElement(int []v) {
-        //size of the given array:
         int n = v.length;
 
         for (int i = 0; i < n; i++) {
