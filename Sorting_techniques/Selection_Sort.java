@@ -14,6 +14,9 @@ public class Selection_Sort {
             int temp = arr[mini];
             arr[mini] = arr[i];
             arr[i] = temp;
+//            for (int k = 0; k < n; i++) {
+//                System.out.print(arr[k] + " ");
+//            }
         }
 
         System.out.println("After selection sort:");
@@ -25,11 +28,6 @@ public class Selection_Sort {
 	public static void main(String[] args) {
 		int arr[] = {13, 46, 24, 52, 20, 9};
         int n = arr.length;
-        System.out.println("Before selection sort:");
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
         selection_sort(arr, n);
 	}
 
