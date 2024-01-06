@@ -20,6 +20,6 @@ public class count_subarray_xor {
         int k = 6;
         int ans = subarraysWithXorK(a, k);
         System.out.println("The number of subarrays with XOR k is: " + ans);
-    }
+    y}
 
 }
