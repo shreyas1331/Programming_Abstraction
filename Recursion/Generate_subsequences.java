@@ -41,7 +41,7 @@ public class Generate_subsequences {
 		sol(idx+1,arr,ans,n);
 	}
 	public static void main(String args[]) {
-		int [] arr= {3,1,2};
+		int [] arr= {1,2,3};
 		int n=arr.length;
 		sol(0,arr,"",n);
 	}

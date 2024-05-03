@@ -31,7 +31,7 @@ public class Deletion_minHeap {
 		if(right<=n && heap.get(right)<heap.get(smallest)) {
 			smallest=right;
 		}
-		if(smallest==index) {
+		if(smallest==index) {  //parent hi smallest hai toh return kr jao
 			return;
 		}
 		swap(heap,index,smallest);

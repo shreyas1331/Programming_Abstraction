@@ -60,6 +60,7 @@ public class Heap_sort {
 		heap.add(10);
 		heap.add(50);
 		heap.add(60);
+		heap.add(5);
 		System.out.println(heap);
 //		deleteFromMinHeap(heap);
 		heapify(heap);
